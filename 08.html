@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>08</title>
+    <title>定位</title>
+    <style type="text/css">
+        div{
+            padding: 40px;
+            border: 6px solid #f00;
+            font-size: 24px;
+        }
+        .b{
+            position: relative;
+        }
+        .c{
+            position: absolute;
+            right: 0;
+            top: 0;
+            border-color: blue;
+            padding: 20px;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="a">a
+        <div class="b">b
+            <div class="c">c</div>
+        </div>
+    </div>
 </body>
 </html>
